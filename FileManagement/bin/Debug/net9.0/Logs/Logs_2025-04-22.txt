@@ -1,0 +1,2 @@
+﻿2025-04-22 20:43:34 | CreateAuctionAsync | success
+2025-04-22 20:43:34 | GetAuctionsAsync | success

@@ -1,0 +1,14 @@
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\FileManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\FileManagement.AssemblyInfoInputs.cache
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\FileManagement.AssemblyInfo.cs
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\FileManagement.csproj.CoreCompileInputs.cache
+D:\Workspace\Amdaris\FIeManagement\FileManagement\bin\Debug\net9.0\FileManagement.exe
+D:\Workspace\Amdaris\FIeManagement\FileManagement\bin\Debug\net9.0\FileManagement.deps.json
+D:\Workspace\Amdaris\FIeManagement\FileManagement\bin\Debug\net9.0\FileManagement.runtimeconfig.json
+D:\Workspace\Amdaris\FIeManagement\FileManagement\bin\Debug\net9.0\FileManagement.dll
+D:\Workspace\Amdaris\FIeManagement\FileManagement\bin\Debug\net9.0\FileManagement.pdb
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\FileManagement.dll
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\refint\FileManagement.dll
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\FileManagement.pdb
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\FileManagement.genruntimeconfig.cache
+D:\Workspace\Amdaris\FIeManagement\FileManagement\obj\Debug\net9.0\ref\FileManagement.dll
