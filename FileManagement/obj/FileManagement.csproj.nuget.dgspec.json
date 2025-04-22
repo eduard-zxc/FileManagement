@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\Amdaris\\FIeManagement\\FileManagement\\FileManagement.csproj": {}
+    "/Users/eduard/Wokspace/FileManagement/FileManagement/FileManagement.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\Amdaris\\FIeManagement\\FileManagement\\FileManagement.csproj": {
+    "/Users/eduard/Wokspace/FileManagement/FileManagement/FileManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\Amdaris\\FIeManagement\\FileManagement\\FileManagement.csproj",
+        "projectUniqueName": "/Users/eduard/Wokspace/FileManagement/FileManagement/FileManagement.csproj",
         "projectName": "FileManagement",
-        "projectPath": "D:\\Workspace\\Amdaris\\FIeManagement\\FileManagement\\FileManagement.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\Amdaris\\FIeManagement\\FileManagement\\obj\\",
+        "projectPath": "/Users/eduard/Wokspace/FileManagement/FileManagement/FileManagement.csproj",
+        "packagesPath": "/Users/eduard/.nuget/packages/",
+        "outputPath": "/Users/eduard/Wokspace/FileManagement/FileManagement/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/eduard/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

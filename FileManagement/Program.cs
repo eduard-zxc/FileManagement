@@ -1,35 +1,30 @@
 ﻿using System.Text;
 
-namespace Logs
+namespace FileManagement
 {
     public static class Program
     {
-        private static readonly string LogDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs");
+        private static string LogDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Logs");
         public static async Task LogAsync(string methodName, bool isSuccess)
         {
-            try
+            if (!Directory.Exists(LogDirectory))
             {
-                if (!Directory.Exists(LogDirectory))
-                {
-                    Directory.CreateDirectory(LogDirectory);
-                }
-
-                string date = DateTime.Now.ToString("yyyy-MM-dd");
-                string logFilePath = Path.Combine(LogDirectory, $"Logs_{date}.txt");
-
-                string outcome = isSuccess ? "success" : "failure";
-                string logMessage = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} | {methodName} | {outcome}";
-
-                await File.AppendAllTextAsync(logFilePath, logMessage + Environment.NewLine, Encoding.UTF8);
+                Directory.CreateDirectory(LogDirectory);
             }
-            catch
-            {
-            }
+
+            string date = DateTime.Now.ToString("yyyy-MM-dd");
+            string logFilePath = Path.Combine(LogDirectory, $"Logs_{date}.txt");
+
+            string outcome = isSuccess ? "success" : "failure";
+            string logMessage = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} | {methodName} | {outcome}";
+
+            await File.AppendAllTextAsync(logFilePath, logMessage + Environment.NewLine, Encoding.UTF8);
+
         }
         static async Task Main()
         {
-            AuctionService auctionService = new AuctionService();
-            Auction auction = new Auction();
+            AuctionService auctionService = new();
+            Auction auction = new();
             await auctionService.CreateAuctionAsync(auction);
             await auctionService.GetAuctionsAsync();
         }
@@ -42,8 +37,6 @@ namespace Logs
             const string methodName = nameof(CreateAuctionAsync);
             try
             {
-                // Your business logic here
-                // await _repository.AddAsync(auction);
                 await Program.LogAsync(methodName, true);
             }
             catch (Exception)
@@ -59,7 +52,7 @@ namespace Logs
             try
             {
                 await Program.LogAsync(methodName, true);
-                return new List<Auction>();
+                return [];
             }
             catch (Exception)
             {
